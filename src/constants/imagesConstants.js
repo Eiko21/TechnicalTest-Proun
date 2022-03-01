@@ -10,6 +10,7 @@ export const facebook = "/facebookIcon.png";
 export const twitter = "/twitterIcon.png";
 export const youtube = "/youtubeIcon.png";
 export const linkedin = "/linkedinIcon.png";
+export const arrow = "/arrow.png";
 
 export const inmoseguros = "/inmosegurosImage.png";
 export const mapfre = "/mapfreImage.png";
@@ -17,3 +18,5 @@ export const mapfre = "/mapfreImage.png";
 export const searchBackground = "/imageBackgroundSearch.png";
 export const windowBackground = "/windowImage.png";
 export const menAndComputer = "/menWithComputerImage.png";
+
+export const client = "/clientImage.png";
