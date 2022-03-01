@@ -1,0 +1,54 @@
+.contactSection{
+    margin: 0 auto;
+}
+
+.contactSection, .copyrightSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright, .legalInfo{
+    font-family: Lato;
+    font-size: 13px;
+    letter-spacing: normal;
+    color: #545454;
+}
+.copyright{
+    text-align: center;
+}
+
+.copyrightIcon{
+    width: 13px;
+    color: #545454;
+}
+
+.copyrightSection, .phoneEmailInformation{
+    border-width: 2px;
+    border-top-style: solid;
+    border-top-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyrightSection{
+    padding: 6px 0 0 0;
+}
+
+.copyrightInfo{
+    display: flex;
+    align-items: center;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.legalInfoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

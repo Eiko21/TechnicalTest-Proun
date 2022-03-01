@@ -1,0 +1,148 @@
+.advantages{
+    height: 520px;
+    background-color:cadetblue;
+    position: absolute;
+    z-index: 2;
+    top: -65px;
+}
+
+.arrowImage{
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+}
+
+.blueSection, .blueSectionCondiciones{
+    height: 340px;
+    background-image: url("../public/blueSectionBackground.png");
+    margin: 29px 0 0;
+    // padding: 27px 11px 49px;
+    background-blend-mode: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blueSectionTitle, .blueSectionSubtitle, .principalTitle{
+    color: white;
+}
+
+.blueSectionTitle, .titleSubSection{
+    font-family: Lato;
+    font-size: 42px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.blueSectionSubtitle, .subtitleSection{
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    max-width: 500px;
+}
+
+.blueSectionCondiciones{
+    padding-top: 100px;
+}
+.blueSection{
+    padding-top: 80px;
+}
+
+.companiesImages{
+    margin-top: 60px;
+}
+
+.companySection{
+    // height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.companiesImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.titleSubSection{
+    color: #008bcf;
+}
+.subtitleSection{
+    color: #4a4a4a;
+}
+
+.testimonialsSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonialCards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 10px 30px 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.emptySection{
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.principalTitle{
+    // width: 449px;
+    // height: 168px;
+    font-family: Lato;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.searchSection{
+    position: relative;
+    background-image: url("../public/imageBackgroundSearch.png");
+    height: 640px;
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+    flex-direction: column;
+}
+
+.searcher{
+
+}
+
+.stepsSection{
+    position: relative;
+    background-image: url("../public/windowImage.png");
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.stepsSection2{
+    margin: 380px 285px 364px;
+    object-fit: contain;
+}
+
+.stepsImage{
+    height: 534px;
+    position: relative;
+    background-image: url("../public/menWithComputerImage.png");
+    position: absolute;
+    z-index: 2;
+    top: -146px;
+}
