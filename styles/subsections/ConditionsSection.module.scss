@@ -1,0 +1,29 @@
+.conditions{
+    height: 340px;
+    background-image: url("../../public/blueSectionBackground.png");
+    margin: 29px 0 0;
+    background-blend-mode: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 42px;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.title, .subtitle{
+    font-family: Lato;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+}
+
+.subtitle{
+    font-size: 18px;
+    line-height: 1.44;
+    max-width: 500px;
+}

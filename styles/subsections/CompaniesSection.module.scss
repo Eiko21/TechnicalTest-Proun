@@ -1,0 +1,33 @@
+.companies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.companiesImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.title, .subtitle{
+    font-family: Lato;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.title{
+    font-size: 42px;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 10px;
+    color: #008bcf;
+}
+
+.subtitle{
+    font-size: 18px;
+    line-height: 1.44;
+    max-width: 500px;
+    color: #4a4a4a;
+}

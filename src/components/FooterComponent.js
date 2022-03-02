@@ -20,7 +20,6 @@ function Footer(){
                     <Image key={Math.random()} width={60} height={60} src={mail} />
                     <Typography key={Math.random()} variant="h6">info@clicasa.com</Typography>
                 </Grid>
-                
             </Grid>
             <Grid container direction="row" justifyContent="center" alignItems="center" className={styles.copyrightSection}>
                 <Grid item justifyContent="center" className={styles.copyrightInfo}>
