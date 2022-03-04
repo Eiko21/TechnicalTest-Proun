@@ -4,10 +4,10 @@ import styles from "../../../styles/button/Button.module.scss";
 
 function ButtonComponent(props){
 
-    const { label, to } = props
+    const { label, to, style } = props
     
     return (
-        <Button to={to} key={label} className={styles.searchButton}>{label}</Button>
+        <Button to={to} key={label} className={style}>{label}</Button>
     )
 }
 

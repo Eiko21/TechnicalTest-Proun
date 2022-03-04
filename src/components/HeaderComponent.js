@@ -3,12 +3,13 @@ import Image from "next/image";
 import { AppBar, Toolbar, Typography } from "@mui/material";
 import ButtonComponent from "./Button/ButtonComponent";
 import styles from "../../styles/Header.module.scss";
+import buttonStyles from "../../styles/button/Button.module.scss";
 import { logo, phone, whatsapp, mail } from "../constants/imagesConstants";
 
 function getHeaderButtons(choices){
     return choices.map( ({ label, href }) => {
         return (
-            <ButtonComponent key={label} label={label} to={href} />
+            <ButtonComponent label={label} to={href} style={buttonStyles.searchButton} />
         )
     })
 }
