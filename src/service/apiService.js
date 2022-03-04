@@ -7,6 +7,6 @@ export function getAllTestimonialsService(testimonials, setTestimonials){
         setTestimonials(...testimonials, response.data);
     })
     .catch(error => {
-        console.log('error == ',error);
+        throw new Error(`${error.name}: ${error.message}`)
     })
 }
