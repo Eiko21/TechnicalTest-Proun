@@ -1,5 +1,5 @@
 .conditions{
-    height: 340px;
+    min-height: 340px;
     background-image: url("../../public/blueSectionBackground.png");
     margin: 29px 0 0;
     background-blend-mode: normal;
@@ -13,7 +13,7 @@
     font-weight: 300;
     line-height: normal;
     margin-bottom: 10px;
-    padding-top: 98px;
+    padding-top: 50px;
 }
 
 .title, .subtitle{

@@ -7,33 +7,47 @@
 .searchSection{
     position: relative;
     background-image: url("../../public/imageBackgroundSearch.png");
-    height: 640px;
+    min-height: 640px;
     display: flex;
     align-items: center;
-    padding-top: 70px;
+    padding-top: 140px;
     flex-direction: column;
+
+    @media only screen and (max-width: 949px) {
+        padding-top: 170px;
+    }
 }
 
 .searcher{
+    position: relative;
+    max-width: 630px;
+    width: 100%;
 
+    @media only screen and (max-width: 750px) {
+        width: 355px;
+    }
+}
+
+.title, .subtitle{
+    font-family: Lato;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
 }
 
 .title{
-    font-family: Lato;
     font-size: 70px;
     font-weight: 300;
     line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: white;
+
+    @media only screen and (max-width: 949px) {
+        font-size: 50px;
+    }
 }
 
 .subtitle{
-    font-family: Lato;
     font-size: 18px;
     line-height: 1.44;
-    letter-spacing: normal;
-    text-align: center;
     max-width: 500px;
-    color: white;
+    margin-top: 25px;
 }

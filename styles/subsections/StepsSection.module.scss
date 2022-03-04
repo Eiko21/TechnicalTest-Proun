@@ -7,7 +7,7 @@
 
 .steps{
     position: relative;
-    height: 640px;
+    min-height: 640px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,15 +38,14 @@
 }
 
 .stepsContainer{
-    height: 300px;
     position: relative;
     display: flex;
     justify-content: center;
-    height: 640px
+    min-height: 640px
 }
 
 .stepsImage{
-    height: 534px;
+    min-height: 534px;
     position: relative;
     background-image: url("../../public/menWithComputerImage.png");
     position: absolute;

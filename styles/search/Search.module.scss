@@ -1,5 +1,19 @@
-.search {
+.searchContainer {
     display: flex;
     border-radius: 3px;
     box-shadow: 4px 4px 8px 0 rgba(23, 53, 111, 0.2);
+    background-color: white;
+    justify-content: space-between;
+    padding: 15px 10px;
+    align-items: initial;
+}
+
+.textField{
+    width: 100%;
+}
+
+.homeImgContainer{
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 0;
 }

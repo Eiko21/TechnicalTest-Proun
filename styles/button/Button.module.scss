@@ -33,10 +33,27 @@
     }
 }
 
-.buttonBlueColor{
+.buttonBlueColor, .buttonIntoSearcher{
     background-color: #0082c4;
-    border: 2px solid #eef5f6;
     color: #eef5f6;
+}
+
+.buttonIntoSearcher{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    width: 215px;
+    min-height: 50px;
+}
+
+.buttonIntoSearcher:hover{
+    background-color: #0082c4;
+    color: #eef5f6;
+}
+
+.buttonBlueColor{
+    border: 2px solid #eef5f6;
 }
 
 .playButton{
