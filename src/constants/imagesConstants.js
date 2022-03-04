@@ -11,6 +11,7 @@ export const twitter = "/twitterIcon.png";
 export const youtube = "/youtubeIcon.png";
 export const linkedin = "/linkedinIcon.png";
 export const arrow = "/arrow.png";
+export const home = "/home.png";
 
 export const inmoseguros = "/inmosegurosImage.png";
 export const mapfre = "/mapfreImage.png";
