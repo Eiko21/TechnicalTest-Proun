@@ -1,21 +1,16 @@
 .header{
-    position: sticky;
-    background-color: white;
-    height: 120px;
-    padding: 32px 38px 28px 42px;
+    position: fixed;
+    background-color: #eef5f6;
+    padding: 20px 0 15px 0;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
     font-family: Lato;
 }
 
 .phoneImg{
     margin: 0 122px 0 154px;
-    object-fit: contain;
 }
 
 .phoneSection{
-    width: 113px;
-    height: 24px;
-    margin: 17px 14px 7px 209px;
     font-size: 20px;
     font-weight: normal;
     font-stretch: normal;
@@ -26,12 +21,25 @@
     color: #545454;
 }
 
-.whatsappImg{
-    margin: 0 42px 0 14px;
-    object-fit: contain;
-}
+.whatsappImg{}
 
 .mailImg{
     margin: 0 0 0 56px;
     object-fit: contain;
+}
+
+.logoContainer{}
+
+.choicesContainer{}
+
+.contactContainer{
+    display: flex;
+    align-items: center;
+}
+
+.contactFormsContainer{}
+
+.toolbar{
+    display: flex;
+    justify-content: space-between;
 }

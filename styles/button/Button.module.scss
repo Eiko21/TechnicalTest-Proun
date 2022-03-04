@@ -1,3 +1,45 @@
 .searchButton{
     color: #545454;
+    &:hover{
+        border-bottom: 3px solid #0082c4;
+        background-color: #eef5f6;
+    }
+}
+
+.roundButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        color: #eef5f6;
+    }
+}
+
+.buttonWhiteColor, .buttonBlueColor{
+    border-radius: 100px;
+    margin: 24px 0 0 0;
+    padding: 10px 20px 10px 20px;
+}
+
+.buttonWhiteColor{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #0082c4;
+    &:hover{
+        color: #eef5f6;
+        background-color: #0082c4;
+    }
+    &:hover .playButton{
+        color: #eef5f6;
+    }
+}
+
+.buttonBlueColor{
+    background-color: #0082c4;
+    border: 2px solid #eef5f6;
+    color: #eef5f6;
+}
+
+.playButton{
+    color: #0082c4;
+    margin-left: 4px;
 }

@@ -1,0 +1,22 @@
+.cardContainer{
+    max-width: 257px;
+    min-width: 257px;
+    max-height: 170px;
+    &:hover{
+        border-bottom: 6px solid #008bcf;
+        background-color: #eef5f6;
+    }
+}
+
+.number{
+    width: 24px;
+    border-radius: 12px;
+    background-color: #008bcf;
+    color: #eef5f6;
+    text-align: center;
+}
+
+.title{
+    font-family: Lato;
+    font-size: 18px;
+}

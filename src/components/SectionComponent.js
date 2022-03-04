@@ -15,10 +15,7 @@ function Section(){
             <SearchSection/>
             <AdvantagesSection/>
             <StepsSection/>
-            <div className={styles.emptySection}>
-                {/* <div className={styles.steps}></div> */}
-                <div className={styles.stepsImage}></div>
-            </div>
+            <div className={styles.emptySection}></div>
             <ConditionsSection/>
             <CompaniesSection/>
             <OffersSection/>

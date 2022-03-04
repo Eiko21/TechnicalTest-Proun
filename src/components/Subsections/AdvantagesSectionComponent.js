@@ -22,7 +22,9 @@ function AdvantagesSection(){
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </Typography>
                 </div>
-                {getAdvantages()}
+                <div className={styles.advantages}>
+                    {getAdvantages()}
+                </div>
             </div>
         </div>
     );

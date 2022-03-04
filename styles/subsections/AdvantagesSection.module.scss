@@ -1,3 +1,10 @@
+.advantages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
 .container{
     height: 300px;
     position: relative;
@@ -6,16 +13,15 @@
 }
 
 .advantagesSection{
-    height: 520px;
+    height: 421px;
     background-color:white;
     position: absolute;
     z-index: 2;
     top: -65px;
     display: flex;
-}
-
-.titleSubtitle{
-    position: absolute;
+    margin: 0 10vw 0 10vw;
+    flex-direction: column;
+    width: 80%;
 }
 
 .title, .subtitle{
@@ -32,9 +38,14 @@
     color: #008bcf;
 }
 
+.titleSubtitle{
+    margin-top: 35px;
+}
+
 .subtitle{
     font-size: 18px;
     line-height: 1.44;
     max-width: 500px;
     color: #4a4a4a;
+    margin: auto;
 }

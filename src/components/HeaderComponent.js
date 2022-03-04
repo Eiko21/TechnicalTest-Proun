@@ -17,18 +17,23 @@ function Header({choices}){
 
     return (
         <AppBar position="fixed" className={styles.header}>
-            <Toolbar>
-                <Image key={Math.random()} width={209} height={55} src={logo} />
+            <Toolbar className={styles.toolbar}>
+                <div className={styles.logoContainer}>
+                    <Image key={Math.random()} width={180} height={55} src={logo} />
+                </div>
 
-                {choices.length > 0 && getHeaderButtons(choices)}
+                <div className={styles.choicesContainer}>
+                    {choices.length > 0 && getHeaderButtons(choices)}
+                </div>
                 
-                <Image key={Math.random()} width={60} height={60} src={phone} className={styles.phoneImg} />
-                
-                <Typography key={Math.random()} variant="h6" sx={{ flexGrow: 1 }} className={styles.phoneSection}>911 123 456</Typography>
-                
-                <Image key={Math.random()} width={60} height={60} src={whatsapp} className={styles.whatsappImg} />
-                
-                <Image key={Math.random()} width={60} height={60} src={mail} className={styles.mailImg} />
+                <div className={styles.contactContainer}>
+                    <Image key={Math.random()} width={50} height={50} src={phone} className={styles.phoneImg} />
+                    <Typography key={Math.random()} variant="h6" className={styles.phoneSection}>911 123 456</Typography>
+                    <div className={styles.contactFormsContainer}>
+                        <Image key={Math.random()} width={50} height={50} src={whatsapp} className={styles.whatsappImg} />
+                        <Image key={Math.random()} width={50} height={50} src={mail} className={styles.mailImg} />
+                    </div>
+                </div>
             </Toolbar>
         </AppBar>
     )

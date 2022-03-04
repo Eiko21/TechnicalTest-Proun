@@ -1,12 +1,19 @@
+.stepsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url("../../public/windowImage.png");
+}
+
 .steps{
     position: relative;
-    background-image: url("../../public/windowImage.png");
     height: 640px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 200px;
+    padding-top: 100px;
 }
+
 
 .title, .subtitle{
     font-family: Lato;
@@ -27,4 +34,23 @@
     line-height: 1.44;
     max-width: 500px;
     color: #4a4a4a;
+    margin-bottom: 15px;
+}
+
+.stepsContainer{
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 640px
+}
+
+.stepsImage{
+    height: 534px;
+    position: relative;
+    background-image: url("../../public/menWithComputerImage.png");
+    position: absolute;
+    z-index: 2;
+    top: 170px;
+    width: 100%;
 }
